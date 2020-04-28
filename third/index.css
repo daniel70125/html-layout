@@ -1,0 +1,33 @@
+body {
+    box-sizing:border-box;
+    padding:0;
+    margin: 0;
+}
+#header {
+    background-color: lightgrey;
+    padding:20px 20px;
+}
+#nav-btn {
+    width:50px;
+    height:50px;
+    background-color: blue;
+}
+#textbox {
+    padding: 75px;
+}
+#blue-box {
+    background-color:blue;
+    height:100px;
+}
+#teal-box {
+    background-color:#50E3C2;
+    height:100px;
+}
+#yelteal-box {
+    background-color:#B8E986;
+    height:100px;
+}
+#yellow-box {
+    background-color:yellow;
+    height:100px;
+}
