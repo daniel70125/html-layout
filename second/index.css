@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    width:100%;
+
+}
+#first-box {
+    margin:20px;
+    border: 5px solid black;
+    height:230px;
+    padding:5px
+}
+#smallbox {
+    height:150px;
+    background-color: mediumpurple;
+    width:50px;
+    display: inline-block;
+}
+#bigbox {
+    height:90%;
+    background-color: green;
+    width:400px;
+    display: inline-block;
+    margin:auto 40px;
+}
+#circle {
+    background-color: skyblue;
+    width:200px;
+    height:80%;
+    display: inline-block;
+    border-radius: 50%;
+}
+#second-box {
+    border: 5px dotted black;
+    margin:0 20px;
+    padding:40px;
+
+
+}
+#dotted-border {
+    background-color: wheat;
+    height:200px;
+    box-shadow: 10px 10px 10px black;
+}
+#third-box {
+    margin:20px 20px;
+    height:300px;
+    
+}
+#greeting-box {
+    height:100px;
+    width:50%;
+    margin: auto;
+    height:100%;
+    text-align: center;
+    box-shadow: 2px 2px 5px grey;
+}
+#greeting-box > p {
+    font-size: 40px;
+    margin: 0;
+
+}

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding:0;
+    margin:0;
+    background-color: #D8D8D8;
+    color:green;
+    font-weight: 700;
+    text-align: center;
+}
+#wrapper {
+    width:100%
+}
+#header {
+    background-color: #444444;
+    height:150px;
+    
+}
+#main {
+    width:75%;
+    margin: auto;
+    height: 70vh;
+    background-color: #EFEFEF;
+}
+footer {
+    width: 75%;
+    height:10vh;
+    background-color: black;
+    margin: auto;
+}
